@@ -23,26 +23,5 @@ namespace Ex_3.Controllers
 
             return movies;
         }
-
-
-        public string Get(int id)
-        {
-            return "value";
-        }
-
-
-        public void Post([FromBody]string value)
-        {
-        }
-
-
-        public void Put(int id, [FromBody]string value)
-        {
-        }
-
-
-        public void Delete(int id)
-        {
-        }
     }
 }
